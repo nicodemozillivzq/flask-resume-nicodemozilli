@@ -261,7 +261,9 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             {{ item.title }}
             {% if item.link != None %}
-                  <a href="{{ item.link }}" class="btn btn-dark float-right" target="_blank">View</a>
+            <sup><a href='{{ item.link }}' target="_blank" class="badge badge-pill badge-danger">
+              Event site <i class="fa fa-external-link-alt text-light"></i>
+            </a></sup>
             {% endif %}
           </li>
           {% endfor %}
