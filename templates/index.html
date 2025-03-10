@@ -259,7 +259,7 @@
           {% for item in data.courses %}
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            {{ item }}
+            {{ item.title }}
             {% if item.link != None %}
                   <a href="{{ item.link }}" class="btn btn-dark float-right" target="_blank">View</a>
             {% endif %}
