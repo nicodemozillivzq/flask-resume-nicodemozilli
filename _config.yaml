@@ -136,7 +136,7 @@ production:
   item2:
     event: Indautor Registration Certificate 
     topic: "Official Registration of Intellectual Property"
-    material: static/docs/2022-2-10151403_CERTIFICADO.pdf
+    material: /static/docs/2022-2-10151403%20CERTIFICADO.PDF
     link:
     description: >
       Official certificate of registration granted by Indautor (Instituto Nacional del Derecho de Autor) 
