@@ -194,30 +194,17 @@ projects:
 
 # Certifications and awards section
 courses:
-  item1:
-    title: Official Odoo Technical Training 2024 
+  - title: Official Odoo Technical Training 2024 
     link: /static/docs/240719%20-%20David%20Nicodemo%20Zilli%20Vázquez.pdf
-  
-  item2:
-    title: Effective Project Management Seminar (PMI - Agile)
+  - title: Effective Project Management Seminar (PMI - Agile)
     link: /static/docs/CONSTANCIA%20-%20DAVID%20NICODEMO%20ZILLI%20VAZQUEZ.pdf
-  
-  item3:
-    title: Open Data Science (21-25 October 2019)
+  - title: Open Data Science (21-25 October 2019)
     link:
-  
-  item4:
-    title: Arduino and Some Applications (15-27 October 2019)
+  - title: Arduino and Some Applications (15-27 October 2019)
     link:
-  
-  item5:
-    title: Master Programmer (12 September 2019)
+  - title: Master Programmer (12 September 2019)
+    link: 
+  - title: Git Version Control (June 2019)
     link:
-  
-  item6: 
-    title: Git Version Control (June 2019)
-    link:
-  
-  item7:
-    title: Python Programming (21-25 October 2017)
+  - title: Python Programming (21-25 October 2017)
     link:
