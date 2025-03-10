@@ -1,7 +1,7 @@
 # Profile section
 profile:
-  first_name: Nicodemo
-  last_name: Zilli
+  first_name: David Nicodemo
+  last_name: Zilli Vazquez
   # Local or hosted picture path
   picture: static/img/nicodemo.jpg
   contact:
@@ -99,6 +99,7 @@ tools:
   - css3
   - js
 
+  - odoo
   - react
   - wordpress
   - cpanel
@@ -186,15 +187,31 @@ projects:
     subtitle: Odoo module for Mex SAT 69-B list
     description: Ensure compliance by integrating the SAT Blacklist (Lista del Artículo 69-B) in Odoo
     link: https://apps.odoo.com/apps/modules/17.0/lista_negra_sat_69B
+    github:
     img: thumbnail_icon.png
     tags: [Odoo, Odoo 17, ERP, SAT]
 
 
 # Certifications and awards section
 courses:
-  - Official Odoo Technical Training
-  - Open Data Science (21-25 October 2019)
-  - Arduino and Some Applications (15-27 October 2019)
-  - Master Programmer (12 September 2019)
-  - Git Version Control (June 2019)
-  - Python Programming (21-25 October 2017)
+  item1:
+    title: Official Odoo Technical Training 2024 
+    link: /static/docs/240719%20-%20David%20Nicodemo%20Zilli%20Vázquez.pdf
+  item2:
+    title: Effective Project Management Seminar (PMI - Agile)
+    link: /static/docs/CONSTANCIA%20-%20DAVID%20NICODEMO%20ZILLI%20VAZQUEZ.pdf
+  item2:
+    title: Open Data Science (21-25 October 2019)
+    link:
+  item3:
+    title: Arduino and Some Applications (15-27 October 2019)
+    link:
+  item4:
+    title: Master Programmer (12 September 2019)
+    link:
+  item5: 
+    title: Git Version Control (June 2019)
+    link:
+  item6:
+    title: Python Programming (21-25 October 2017)
+    link:
