@@ -3,7 +3,7 @@ profile:
   first_name: Nicodemo
   last_name: Zilli
   # Local or hosted picture path
-  picture: static/img/nicodemozilli.jpg
+  picture: static/img/nicodemo.jpg
   contact:
     address_one: Tlatelolco, Cuauhtémoc, CDMX
     address_two:
