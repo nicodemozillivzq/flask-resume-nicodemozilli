@@ -99,7 +99,6 @@ tools:
   - css3
   - js
 
-  - odoo
   - react
   - wordpress
   - cpanel
