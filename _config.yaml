@@ -2,66 +2,98 @@
 profile:
   first_name: Nicodemo
   last_name: Zilli
-  # picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
-  picture: static/img/Nico.jpeg  # Local picture
+  # Local or hosted picture path
+  picture: static/img/nicodemozilli.jpg
   contact:
-    address_one: Córdoba, Veracruz
+    address_one: Tlatelolco, Cuauhtémoc, CDMX
     address_two:
-    phone: Ask 4 it!
+    phone: Ask 4 it!  # Replace with your phone if desired
   email: nicozv13@gmail.com
-  description:
-    I'm a Computer Systems Engineer, specializing in Web Engineering.
-    Full Stack Web Developer, interested in the ethical development of Artificial Intelligence.
-    With the ability to learn and apply my knowledge in the professional field.
-    Looking for an opportunity where I can develop my skills and gain experience.
+  description: >
+    I'm a Computer Systems Engineer specializing in web engineering, full-stack development, and Odoo implementations.
+    Currently working as a Senior Software Development and Projects Consultant, leading an IT area while mentoring junior developers
+    and orchestrating end-to-end deployments (Docker, Odoo SH). I have a strong background in agile and hybrid methodologies (Scrum-PMI),
+    and I'm interested in continuous improvement, DevOps practices, and the ethical development of Artificial Intelligence.
+    My goal is to contribute my expertise to drive technical innovation and deliver impactful software solutions.
 
 # Social section
 social:
-  website: https://nicodemozilli.github.io
-  github: https://github.com/NicodemoZilli/
+  website: https://nicodemozillivz.glitch.me
+  github: https://github.com/nicodemozillivzq
   twitter: https://twitter.com/ZvNico/
   linkedin: https://www.linkedin.com/in/nicodemozilli/
-  dev: https://dev.to/nicodemozilli
-# facebook:
-# medium: https://medium.com/@
+  dev: https://dev.to/nicodemozillivzq
 
 # Experience section
 experience:
   item1:
-    position: Java Backend Developer
+    position: Senior Software Development and Projects Consultant
+    company: ibsolutions GROUP
+    from: December 2023
+    to: present
+    description: >
+      - Lead the IT area, coordinating teams and mentoring junior developers.
+      - Manage end-to-end Odoo ERP implementations, customizing modules (Contabilidad, Gastos, RRHH, etc.).
+      - Develop and maintain backend solutions, including Docker-based deployments and Odoo SH administration.
+      - Execute 7 key projects, such as a document repository web app connected to a custom chatbot,
+        and 3 major Odoo ERP implementations with custom automations.
+      - Apply agile/hybrid methodologies (Scrum-PMI) to ensure timely deliveries and continuous improvement.
+    reference: https://nicodemozilli.github.io/resume/
+
+  item2:
+    position: Coordinator of Web Development – Product Owner
+    company: ibsolutions GROUP
+    from: September 2022
+    to: December 2023
+    description: >
+      - Planned and supervised full-stack web projects (PHP, JavaScript, SQL) using SCRUM-PMI.
+      - Integrated Microsoft Power Automate and Webhooks for process automation.
+      - Led a small development team, setting coding standards and reviewing code.
+    reference: https://nicodemozilli.github.io/resume/
+
+  item3:
+    position: WebMaster
+    company: ibsolutions GROUP
+    from: March 2022
+    to: August 2022
+    description: >
+      - Administered and customized WordPress-based websites for clients and internal use.
+      - Integrated third-party services and optimized performance for higher traffic sites.
+    reference: https://nicodemozilli.github.io/resume/
+
+  item4:
+    position: Java Backend Developer (Residencia Profesional)
     company: TecNM CENIDET
     from: August 2021
     to: December 2021
     description: >
-      Developing a Backend Java application for calculating quality metrics of software architectures
-  reference: https://nicodemozilli.github.io/resume/
-
+      - Designed and built a distributed Java application to calculate software architecture quality metrics
+        (known as the "Marco de Servicios de Cálculo de Calidad de Arquitecturas de Software").
+      - Developed a JavaFX, PHP, JavaScript solution for data collection and quality assessments.
+    reference: https://nicodemozilli.github.io/resume/
 
 # Education section
 education:
   item1:
     institution: Tecnológico Nacional de México Campus Orizaba / ITO
-    program: Computers Systems Engineering.
-    description: Specialty in Web Engineering.
+    program: Computer Systems Engineering
+    description: Specialty in Web Engineering. Title in process.
     from: August 2017
     to: December 2021
   item2:
-    institution: Centro de Bachillerato Tecnológico Industrial y de Servicios No. 47 CBTIS No. 47
-    program: Support and Maintenance of Computer Equipment Technician.
+    institution: Centro de Bachillerato Tecnológico Industrial y de Servicios No. 47 (CBTIS No. 47)
+    program: Support and Maintenance of Computer Equipment Technician
     description: Administration and repair of computer equipment and networks.
     cedprof: CED. PROF. 12557082
     from: August 2014
     to: July 2017
   reference: https://nicodemozilli.github.io/resume/
 
-
 # Skills section
 tools:
-  # Consider that the following are fa icons:
-  #   https://fontawesome.com/icons?d=gallery&s=brands
-  - java
   - python
   - php
+  - java
 
   - html5
   - css3
@@ -83,64 +115,86 @@ tools:
   - apple
   - linux
   - centos
+
 extra_skills:
-  # - Facebook Messenger, Telegram, and SMS bots
-  - Web development, full stack, MySQL PostgreSQL
-  - Machine learning con ML.js
-  - Java development, full stack
-  - Arduino and Internet of things
-  - Cross Platform App Development with AJAX and JSON
-  - Data Administrator on MySQL and PostgreSQL
+  - Odoo ERP customizations and deployments (Odoo SH)
+  - Docker and DevOps practices
+  - Web development (Full Stack: MySQL, PostgreSQL)
+  - Java development (full stack) and frameworks
+  - Arduino and IoT projects
+  - Cross-platform app development with AJAX and JSON
+  - Data administration with MySQL and PostgreSQL
 
 # Talks and workshops section
 production:
   item1:
-    event: Coloquio de Investigación Multidisciplinaria CIM Octubre 2018, TecNM campus Orizaba
-    topic: Educational Research, "Análisis de la realidad del aprendizaje de programación en el Instituto Tecnológico de Orizaba"
+    event: Coloquio de Investigación Multidisciplinaria (CIM), October 2018 – TecNM Campus Orizaba
+    topic: "Análisis de la realidad del aprendizaje de programación en el Instituto Tecnológico de Orizaba"
     material: static/docs/material-CIM2018.pdf
     link: http://cim.orizaba.tecnm.mx/?page_id=161
-  reference: https://nicodemozilli.github.io/resume/
 
-
+  item2:
+    event: Indautor Registration Certificate 
+    topic: "Official Registration of Intellectual Property"
+    material: static/docs/2022-2-10151403_CERTIFICADO.pdf
+    link:
+    description: >
+      Official certificate of registration granted by Indautor (Instituto Nacional del Derecho de Autor) 
+      for "MARCO DE SERVICIOS DE CALCULO DE CALIDAD DE ARQUITECTURAS DE SOFTWARE". This registration ensures intellectual property 
+      protection and authorship recognition.
+  
 # Projects section
 projects:
   item1:
     title: MSCCAS
-    subtitle: Software Architecture Quality Calculation Services Framework.
-    description: A Java Backend Application that waits for connections from a Frontend App for Quality Calculation.
+    subtitle: Software Architecture Quality Calculation Services Framework
+    description: A Java backend application that waits for connections from a frontend app for quality calculations.
     link:
     github: https://github.com/NicodemoZilli/PR-MarcoMCAS-GUIServer-IJ
     img: msccas.png
     tags: [JAVA, JSON, HTTP]
+
   item2:
     title: GUI - MSCCAS
     subtitle: Test interface for the Software Architecture Quality Calculation Services Framework
-    description:  A PHP-HTML-JS Frontend Test Web Application for quality calculation.
+    description: A PHP-HTML-JS frontend test web application for quality calculations.
     link: http://www.nicodemozilli.systems/smmcas/
     github: https://github.com/NicodemoZilli/PR-MarcoMCAS-Web-Frontend
     img: gui-msccas.png
     tags: [PHP, HTML5, JS, CSS3]
+
   item3:
     title: flask-resume-template
     subtitle: A resume template built with Flask
-    description: An easy-to-configure simple resume template built with Flask and Bootstrap.
+    description: An easy-to-configure, simple resume template built with Flask and Bootstrap.
     link: https://nicodemozilli.glitch.me
     github: https://github.com/NicodemoZilli/flask-based-resume-nicodemozilli/
     img: flask-resume-template.png
     tags: [Flask, Python, Bootstrap]
+
   item4:
     title: NMD
     subtitle: No Mask Detector
-    description: A Mask Detector Web page powered by Ml5.js
+    description: A mask detector webpage powered by Ml5.js
     link: https://nicodemozilli.github.io/NMD/
     github: https://github.com/NicodemoZilli/NMD/
     img: NMD-Capture.png
     tags: [ML5.js, P5.js, HTML]
+    
+  item5:
+    title: SAT Blacklist 69-B Odoo Module
+    subtitle: Odoo module for Mex SAT 69-B list
+    description: Ensure compliance by integrating the SAT Blacklist (Lista del Artículo 69-B) in Odoo
+    link: https://apps.odoo.com/apps/modules/17.0/lista_negra_sat_69B
+    img: thumbnail_icon.png
+    tags: [Odoo, Odoo 17, ERP, SAT]
+
 
 # Certifications and awards section
 courses:
-  - Open Data Science 21-25 October 2019
-  - Arduino and Some Applications 15-27 October 2019
-  - Master Programmer 12 September 2019
-  - Git Version Control June 2019
-  - Python Programming 21-25 October 2017
+  - Official Odoo Technical Training
+  - Open Data Science (21-25 October 2019)
+  - Arduino and Some Applications (15-27 October 2019)
+  - Master Programmer (12 September 2019)
+  - Git Version Control (June 2019)
+  - Python Programming (21-25 October 2017)
