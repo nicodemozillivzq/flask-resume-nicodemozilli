@@ -94,20 +94,20 @@ tools:
   - python
   - php
   - java
-
-  - html5
-  - css3
   - js
 
   - react
-  - wordpress
-  - cpanel
+  - html5
+  - css3
 
   - markdown
   - git
   - github
-  - gitlab
+  
+  - wordpress
+  - cpanel
 
+  - docker
   - digital-ocean
   - aws
   - google
