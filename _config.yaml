@@ -135,13 +135,13 @@ production:
 
   item2:
     event: Indautor Registration Certificate 
-    topic: "Official Registration of Intellectual Property"
-    material: /static/docs/2022-2-10151403%20CERTIFICADO.PDF
-    link:
-    description: >
+    topic: >
       Official certificate of registration granted by Indautor (Instituto Nacional del Derecho de Autor) 
       for "MARCO DE SERVICIOS DE CALCULO DE CALIDAD DE ARQUITECTURAS DE SOFTWARE". This registration ensures intellectual property 
       protection and authorship recognition.
+    material: /static/docs/2022-2-10151403%20CERTIFICADO.PDF
+    link:
+   
   
 # Projects section
 projects:
