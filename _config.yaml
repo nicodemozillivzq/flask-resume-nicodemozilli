@@ -96,22 +96,22 @@ tools:
   - java
   - js
 
-  - react
-  - html5
-  - css3
-
-  - markdown
-  - git
-  - github
-  
-  - wordpress
-  - cpanel
-
   - docker
   - digital-ocean
   - aws
   - google
 
+  - markdown
+  - git
+  - github
+  
+  - react
+  - html5
+  - css3
+  
+  - wordpress
+  - cpanel
+  
   - apple
   - linux
   - centos
